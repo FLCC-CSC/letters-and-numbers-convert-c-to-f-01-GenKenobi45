@@ -1,8 +1,8 @@
 # FILE NAME - convert_C_to_F_01.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Yusuf Khan 
+# DATE: 02/14/25
+# BRIEF DESCRIPTION:  program converts temperature in celsius entered by user to farenheit.
 
 
 
@@ -13,19 +13,16 @@
 
 
 
-
     
 # Don't forget to cast user input as a float!
     
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
-
-
-
-
-
-
-
+def convert_C_to_F():
+   c = float(input('Enter a temperature in Celsius: '))
+   f = c*9/5+32
+   print(c, 'degrees Celsius is', f, 'degrees Farenheit.')
+convert_C_to_F()
 
 
 ########### END YER CODE ABOVE THIS LINE ###########
@@ -76,14 +73,14 @@ Enter a temperature in Celsius: 1
 
 1. What does `float` mean?
 
-
+float means any type of data in python that is represented with a decimal point, so it can output fractional values.
 
 
 
 2. Why do you think it is important to use `float` as opposed to
    a different type of variable type?
 
-
+It is important to use float because otherwise you will not be getting exact data, instead you will be getting an estimate that is a whole number. 
 
 
 
